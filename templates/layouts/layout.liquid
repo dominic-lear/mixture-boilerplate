@@ -16,6 +16,7 @@
             <!-- Content block, child page inject content -->
             {% block content %}{% endblock %}
         </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         {{ "plugins.js" | asset_url | script_tag }}
         {{ "main.js" | asset_url | script_tag }}
     </body>
